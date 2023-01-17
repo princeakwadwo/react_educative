@@ -20,3 +20,21 @@ body {
  .article:after {
      content: "No, I dont"
  }
+
+ a:link {
+    color:blue;
+ }
+ a:visited {
+    color:black;
+ }
+ a:hover {
+    color:brown;
+ }
+ a:active {
+    color:crimson;
+ }
+
+ input[type="text"] {
+     color: red;
+     background-color: #ff00ff;
+ }
