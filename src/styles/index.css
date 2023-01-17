@@ -1,0 +1,21 @@
+
+body {
+    font-size: 20px;
+    
+}
+ h1 {
+    color: palevioletred;
+    text-align: center;
+ }
+
+ .content:first-letter {
+     color: red;
+     font-weight: bold;
+     font-size: 200%;
+ }
+
+ content:first-line {
+     color: red;
+     font-weight: bold;
+     font-size: 200%;
+ }
