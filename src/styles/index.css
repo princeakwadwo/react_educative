@@ -14,8 +14,9 @@ body {
      font-size: 200%;
  }
 
- content:first-line {
-     color: red;
-     font-weight: bold;
-     font-size: 200%;
+ .article:before {
+     content: "Yes, I do"
+ }
+ .article:after {
+     content: "No, I dont"
  }
