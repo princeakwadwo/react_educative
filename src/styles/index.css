@@ -1,6 +1,6 @@
 
 body {
-    font-size: 1em;
+    font-size: 2em;
     background-color: rgba(0, 0, 255,0.9);
     color:white;
     
@@ -40,3 +40,12 @@ body {
      color: red;
      background-color: #ff00ff;
  }
+ .one {
+     font-size: 1.5em
+ }
+  .two {
+      font-size: 1.5em
+  }
+  .three {
+      font-size: 1.5em
+  }
