@@ -41,11 +41,11 @@ body {
      background-color: #ff00ff;
  }
  .one {
-     font-size: 100%
+     font-size: 2em;
  }
   .two {
-      font-size: 1em;
+      font-size: 2em;
   }
   .three {
-      font-size: 100%
+      font-size: 1rem
   }
