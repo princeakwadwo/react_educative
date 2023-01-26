@@ -62,6 +62,10 @@ body {
         margin-right: auto;
         margin-top: 20px;
         margin-bottom: 30px;
-   
-
   }
+
+   div.wrapper {
+        font-family: "Lucida Grande", "Lucida Sans Unicode","Lucida Sans", Verdana, Tahoma, sans-serif;
+        background-color: pink;
+        border: 10px solid black;
+   }
