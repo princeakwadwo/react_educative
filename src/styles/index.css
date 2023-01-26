@@ -7,7 +7,7 @@
      /*this will remove every inner space from body*/
      font-family: "Lucida Grande", "Lucida Sans Unicode",
          "Lucida Sans", Verdana, Tahoma, sans-serif;
-     font-size: 0.75em;
+     font-size: 0.5em;
  }
  /* h1 {
     color: palevioletred;
@@ -68,7 +68,7 @@
         margin-bottom: 30px;
   } */
 
-.wrapper {
+/* .wrapper {
         width: 80%;
         margin-top: 20px;
         margin-left: auto;
@@ -87,4 +87,8 @@
 
  p.margintest {
      margin: 5em;
+ } */
+
+ h1 {
+    border-bottom: 1px ridge black;
  }
