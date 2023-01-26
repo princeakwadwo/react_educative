@@ -69,3 +69,9 @@ body {
         background-color: pink;
         border: 10px solid black;
    }
+   p.paddingtest {
+    padding: 2em;
+   }
+   p.margintest {
+    margin: 5em;
+   }
