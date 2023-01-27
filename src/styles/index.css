@@ -101,8 +101,18 @@
      border-bottom: 1px solid rgba(224, 224, 224, 1); 
      /* padding-bottom: 15px; */
  }
-
- p.drop-cap
+ /*============================
+      2. Remove the large gap between the h1 element and the following paragraph
+      Tip: To remove all space between a heading and the paragraph that follows it, 
+ 			you must remove the bottom margin from the heading as well as the top margin from the paragraph
+      =============================*/
+ h1 {
+     margin-bottom: 0
+ } 
+ h1+p {
+     margin-top: 0
+ }  
+ /* p.drop-cap
  {
   color: pink;
   margin-top: -10px;
@@ -122,4 +132,4 @@
     margin-left: auto;
     margin-bottom: 10px;
     margin-right: auto;
- }
+ } */
