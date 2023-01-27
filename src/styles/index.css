@@ -206,3 +206,8 @@ a:hover,.no-link a:hover
 {
     color: teal
 }
+.bg {
+    height: 30vh;
+    width: 30vh;
+    background-image: url("https://static.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg")
+}
