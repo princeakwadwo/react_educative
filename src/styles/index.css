@@ -164,3 +164,24 @@ Try them out!!
     text-transform: uppercase;
     color: rgba(55, 71, 79, 1)
 }
+ /*============================
+7. Target the ".indent" class and indent the text.
+Tip: Indenting text in CSS isn't as hard as you think. 
+If you tried to use margins or padding to force a space, that's not going to work. 
+Use the `text-indent` property, and give it a length value like so:
+=============================*/
+ .indent {
+     text-indent: 2em
+ }
+/*============================
+8. Target the ".drop-cap" class and give it a drop cap effect. 
+The solution is simple. Target the first letter and style it differently.
+ =============================*/
+    
+.drop-cap:first-letter {
+font-weight: bold;
+font-size: 300%;
+line-height: 1;
+float: left; /*uncomment this to see the effect */
+width: 0.9em;
+}
