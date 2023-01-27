@@ -112,6 +112,39 @@
  h1+p {
      margin-top: 0
  }  
+ /*
+what on earth is the "+"? It is called the adjacent sibling combinator. I intentionally used it here
+so i get a chance to explain it to you. 
+The adjacent sibling combinator (+) matches the second 
+element only if it immediately follows the first element
+In this example, it will match every paragraph, "p" that comes immediately after an "h1" element. 
+*/
+ /*============================
+      3. Target the ".highlight" class and Highlight the text. Give it a yellow highlight.
+      Tip: The highlight is basically just a yellow background color. 
+			It is common for websites to highlight important items on a page. 
+      =============================*/
+ .highlight {
+     background-color: yellow
+ }
+ /*============================
+4. Target the ".justify" class and justify the text i.e make the text flush with both 
+ margins - left and right.
+Tip: when you justify text, the left and right margins of the text is aligned. 
+The `text-align` property controls the alignment options for texts in general. 
+    
+The values the `text-align` property can take include: 
+(i) right
+(ii) left
+(iii) center
+(iv) justify
+Try them out! 
+    
+Justifying a text can be easily achieved using CSS like so: 
+=============================*/
+.justify {
+ text-align: justify
+}
  /* p.drop-cap
  {
   color: pink;
