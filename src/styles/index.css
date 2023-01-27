@@ -89,8 +89,17 @@
      margin: 5em;
  } */
 
+ /*============================
+      1. Underline the h1 heading.
+      Tip: You can include an underline by writing: `text-decoration: underline` which underline just the text.   
+
+      However, I have used a border to achieve a more flexible effect. 
+      The spacing between the underline and header may be tweaked using padding. 
+			Uncomment the padding declaration below to see the result.
+      =============================*/
  h1 {
-    border-bottom: 1px ridge black;
+     border-bottom: 1px solid rgba(224, 224, 224, 1); 
+     /* padding-bottom: 15px; */
  }
 
  p.drop-cap
