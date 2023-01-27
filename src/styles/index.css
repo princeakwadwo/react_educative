@@ -145,24 +145,22 @@ Justifying a text can be easily achieved using CSS like so:
 .justify {
  text-align: justify
 }
- /* p.drop-cap
- {
-  color: pink;
-  margin-top: -10px;
- }
- .highlight
- {
-  color:yellow
- }
- .justify
- {
-    margin-left: 10px;
-    margin-right: 10px;
- }
- p.center 
- {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-bottom: 10px;
-    margin-right: auto;
- } */
+.center {
+      text-align: center
+}
+/*============================
+Target the ".caps" class and make the text appear in capital letters ONLY!
+TIP: Sometimes you want to draw attention by making the text all capital letters. 
+    
+There's a css property for that! It is called ``text-transform`
+The values it can take include: 
+(i) uppercase
+(ii) lowercase
+(iii) none
+(iv) capitalize 
+Try them out!!
+=============================*/   
+.caps {
+    text-transform: uppercase;
+    color: rgba(55, 71, 79, 1)
+}
