@@ -107,7 +107,10 @@
     margin-left: 10px;
     margin-right: 10px;
  }
- .center 
+ p.center 
  {
-    margin: 10px auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
  }
