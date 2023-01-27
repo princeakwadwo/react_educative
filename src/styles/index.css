@@ -185,3 +185,24 @@ line-height: 1;
 float: left; /*uncomment this to see the effect */
 width: 0.9em;
 }
+ /*============================
+9.Target every link in the document, and ...
+>  give them a color of "DarkBlue" and a bold size EXCEPT the link in the 
+".no-link" class. Give it a color of red
+->  change the color of the link when the cursor moves over it
+=============================*/
+ a {
+     color: darkblue;
+     font-weight: bold
+ }
+
+ .no-link a {
+     color: red
+ }
+/*============================
+10. Also, on hover change the color of the links when the cursor moves over it to 'teal'
+=============================*/
+a:hover,.no-link a:hover 
+{
+    color: teal
+}
