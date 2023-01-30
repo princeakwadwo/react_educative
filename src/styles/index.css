@@ -1,14 +1,14 @@
 
- body {
-     background-color: #fff;
-     margin: 0;
+  /* body { */
+     /* background-color: #fff; */
+     /* margin: 0; */
      /*this will remove every outer space from body*/
-     padding: 0;
+     /* padding: 0; */
      /*this will remove every inner space from body*/
-     font-family: "Lucida Grande", "Lucida Sans Unicode",
-         "Lucida Sans", Verdana, Tahoma, sans-serif;
-     font-size: 0.5em;
- }
+     /* font-family: "Lucida Grande", "Lucida Sans Unicode", */
+         /* "Lucida Sans", Verdana, Tahoma, sans-serif; */
+     /* font-size: 0.5em; */
+ /* } */
  /* h1 {
     color: palevioletred;
     text-align: center;
@@ -97,21 +97,22 @@
       The spacing between the underline and header may be tweaked using padding. 
 			Uncomment the padding declaration below to see the result.
       =============================*/
- h1 {
+  /* h1 {
      border-bottom: 1px solid rgba(224, 224, 224, 1); 
-     /* padding-bottom: 15px; */
- }
+      padding-bottom: 15px; 
+  } */
+ 
  /*============================
       2. Remove the large gap between the h1 element and the following paragraph
       Tip: To remove all space between a heading and the paragraph that follows it, 
  			you must remove the bottom margin from the heading as well as the top margin from the paragraph
       =============================*/
- h1 {
+ /* h1 {
      margin-bottom: 0
  } 
  h1+p {
      margin-top: 0
- }  
+ }   */
  /*
 what on earth is the "+"? It is called the adjacent sibling combinator. I intentionally used it here
 so i get a chance to explain it to you. 
@@ -124,9 +125,9 @@ In this example, it will match every paragraph, "p" that comes immediately after
       Tip: The highlight is basically just a yellow background color. 
 			It is common for websites to highlight important items on a page. 
       =============================*/
- .highlight {
+ /* .highlight {
      background-color: yellow
- }
+ } */
  /*============================
 4. Target the ".justify" class and justify the text i.e make the text flush with both 
  margins - left and right.
@@ -142,12 +143,12 @@ Try them out!
     
 Justifying a text can be easily achieved using CSS like so: 
 =============================*/
-.justify {
+/* .justify {
  text-align: justify
 }
 .center {
       text-align: center
-}
+} */
 /*============================
 Target the ".caps" class and make the text appear in capital letters ONLY!
 TIP: Sometimes you want to draw attention by making the text all capital letters. 
@@ -160,55 +161,55 @@ The values it can take include:
 (iv) capitalize 
 Try them out!!
 =============================*/   
-.caps {
+/* .caps {
     text-transform: uppercase;
     color: rgba(55, 71, 79, 1)
-}
+} */
  /*============================
 7. Target the ".indent" class and indent the text.
 Tip: Indenting text in CSS isn't as hard as you think. 
 If you tried to use margins or padding to force a space, that's not going to work. 
 Use the `text-indent` property, and give it a length value like so:
 =============================*/
- .indent {
+ /* .indent {
      text-indent: 2em
- }
+ } */
 /*============================
 8. Target the ".drop-cap" class and give it a drop cap effect. 
 The solution is simple. Target the first letter and style it differently.
  =============================*/
     
-.drop-cap:first-letter {
+/* .drop-cap:first-letter {
 font-weight: bold;
 font-size: 300%;
 line-height: 1;
-float: left; /*uncomment this to see the effect */
+float: left; 
 width: 0.9em;
-}
+} */
  /*============================
 9.Target every link in the document, and ...
 >  give them a color of "DarkBlue" and a bold size EXCEPT the link in the 
 ".no-link" class. Give it a color of red
 ->  change the color of the link when the cursor moves over it
 =============================*/
- a {
+ /* a {
      color: darkblue;
      font-weight: bold
  }
 
  .no-link a {
      color: red
- }
+ } */
 /*============================
 10. Also, on hover change the color of the links when the cursor moves over it to 'teal'
 =============================*/
-a:hover,.no-link a:hover 
+/* a:hover,.no-link a:hover 
 {
     color: teal
-}
+}  */
 .movie {
-    height: 80vh;
-    background-image: url("http://i.imgur.com/Mx3P487.png");
-    background-repeat: no-repeat;
-    background-size: contain
+    width:100%;
+    background-image: url("http://i.imgur.com/2tiJEnP.png");
+    background-size: cover;
+    padding: 20px 20px 20px 190px;
 }
