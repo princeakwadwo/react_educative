@@ -181,7 +181,7 @@ The solution is simple. Target the first letter and style it differently.
 .drop-cap:first-letter {
 font-weight: bold;
 font-size: 300%;
-line-height: 1;
+line-height: 5;
 float: left; /*uncomment this to see the effect */
 width: 0.9em;
 }
