@@ -210,5 +210,5 @@ a:hover,.no-link a:hover
     height: 80vh;
     background-image: url("http://i.imgur.com/Mx3P487.png");
     background-repeat: no-repeat;
-    background-size: 100% 50%
+    background-size: 50% auto
 }
