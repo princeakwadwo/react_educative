@@ -218,3 +218,8 @@ width: 0.9em;
 .movie__description {
     font-size: 1.5rem;
 }
+
+.movie button {
+    background-color: brown;
+    color: white;
+}
