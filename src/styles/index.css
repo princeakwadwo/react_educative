@@ -228,3 +228,10 @@ width: 0.9em;
     margin-top: 40px;
     border: 0;    /* or use, NONE*/
 }
+div {
+    height: 100%;
+    background-image: url("http://i.imgur.com/ThtOO8z.png");
+    background-repeat: no-repeat;
+    /* play around with the value below👇*/
+    background-position: left bottom;
+}
