@@ -213,4 +213,5 @@ width: 0.9em;
     background-size: cover;
     padding: 20px 20px 20px 190px;
     color:white;
+    box-sizing: border-box;
 }
