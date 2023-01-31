@@ -209,8 +209,7 @@ width: 0.9em;
 }  */
 .movie {
     width:100%;
-    background-image: url("http://i.imgur.com/2tiJEnP.png");
-    background-size: cover;
+    background: url("http://i.imgur.com/lcm5byq.png") 20px 20px/ 150px 218px no-repeat,url("http://i.imgur.com/2tiJEnP.png") 0% 0%/cover;
     padding: 20px 20px 20px 190px;
     color:white;
     box-sizing: border-box;
