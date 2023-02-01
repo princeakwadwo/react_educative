@@ -207,6 +207,13 @@ width: 0.9em;
 {
     color: teal
 }  */
+
+html,
+body {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .movie {
     width:100%;
     background: url("http://i.imgur.com/lcm5byq.png") 20px 20px/ 150px 218px no-repeat,url("http://i.imgur.com/2tiJEnP.png") 0% 0%/cover;
@@ -234,5 +241,5 @@ div {
     background-image: url("http://i.imgur.com/ThtOO8z.png");
     background-repeat: no-repeat;
     /* play around with the value below👇*/
-    background-position: left bottom;
+    background-position: top right;
 }
