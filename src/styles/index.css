@@ -242,5 +242,5 @@ body {
     width: 400px;
     height: 267px;
     margin: 20px auto;
-    background-image: linear-gradient(to right, blue, white, white, red);
+    background-image: linear-gradient(to right, blue 33.3333%, white 33.3333%, white 66.666%, red 66.666%);
 }
