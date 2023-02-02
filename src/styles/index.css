@@ -210,10 +210,10 @@ width: 0.9em;
 
 html,
 body {
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
+    background-color: lightcyan;
     /* background-image: linear-gradient(rgba(177, 130, 125, 0.8), rgba(30, 95, 160, 0.8)); */
 }
 .movie {
@@ -239,23 +239,30 @@ body {
     width: 6.5rem;
 }
 .france {
-    display:flex;
+    display: inline-block;
+    margin:20px auto;
     width: 400px;
     height: 267px;
-    margin: 20px auto;
     background-image: linear-gradient(to right, blue 33.3333%, white 33.3333%, white 66.666%, red 66.666%);
 }
 .ghana {
-    display: flex;
+    display: inline-block;
+    margin: 20px auto;
     width: 400px;
     height: 267px;
-    margin: 20px auto;
     background-image: linear-gradient(to top, green 33.3333%, gold 33.3333%, gold 66.666%, red 66.666%);
 }
 .nigeria {
-    display: flex;
+    display: inline-block;
+    margin: 20px auto;
     width: 400px;
     height: 267px;
-    margin: 20px auto;
     background-image: linear-gradient(to bottom, green 33.3333%, white 33.3333%, white 66.666%, green 66.666%);
+}
+.german {
+    display: inline-block;
+    margin: 20px auto;
+    width: 400px;
+    height: 267px;
+    background-image: linear-gradient(to bottom, black 33.3333%, red 33.3333%, red 66.666%, gold 66.666%);
 }
