@@ -213,7 +213,8 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(rgba(177, 130, 125, 0.8), rgba(30, 95, 160, 0.8));
+    background-color: black;
+    /* background-image: linear-gradient(rgba(177, 130, 125, 0.8), rgba(30, 95, 160, 0.8)); */
 }
 .movie {
     width:100%;
@@ -237,10 +238,9 @@ body {
     border-radius: 15px;
     width: 6.5rem;
 }
-div {
-    height: 100%;
-    background-image: url("http://i.imgur.com/ThtOO8z.png");
-    background-repeat: no-repeat;
-    /* play around with the value below👇*/
-    background-position: top right;
+.france {
+    width: 400px;
+    height: 267px;
+    margin: 20px auto;
+    background-image: linear-gradient(to right, blue, white, white, red);
 }
