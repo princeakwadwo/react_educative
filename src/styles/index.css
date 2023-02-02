@@ -272,5 +272,5 @@ body {
     width: 400px;
     height: 267px;
     margin: 20px auto;
-    background-image: linear-gradient(to bottom right, green 33.3333%, gold 33.3333%, gold 66.6666%, red 66.6666%)
+    background-image: linear-gradient(135deg, green 40%, gold 40%, gold 60%, red 60%)
 }
