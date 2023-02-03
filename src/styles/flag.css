@@ -41,8 +41,8 @@ body {
 
 .congo {
     display: inline-block;
+    margin: 20px auto;
     width: 400px;
     height: 267px;
-    margin: 20px auto;
     background-image: linear-gradient(135deg, green 40%, gold 40%, gold 60%, red 60%)
 }
