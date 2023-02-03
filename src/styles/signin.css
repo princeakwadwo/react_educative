@@ -3,7 +3,32 @@ html,body {
     background-color: pink;
     height: 100vh;
 }
-.main_container {
+/* .main_container {
     width:75%;
     margin: 0 auto;
+} */
+
+.flex_container {
+  width: 80vw;
+  height: 500px;
+  background-color: aqua;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.child_one {
+    width: 20vw;
+    height: 250px;
+    background-color: red;
+}
+.child_two {
+    width: 20vw;
+    height: 250px;
+    background-color: yellow;
+}
+.child_three {
+    width: 20vw;
+    height: 250px;
+    background-color: blue;
 }
