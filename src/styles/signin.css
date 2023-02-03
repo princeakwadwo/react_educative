@@ -6,11 +6,20 @@ body {
     align-items: center;
     justify-content: center;
 }
-.main_container {
+main {
     width:75%;
-    margin: 0 auto;
+    display: flex;
 }
-
+/*make the width of both 50% i.e half and equal.*/
+section,
+form {
+    border: 1px solid red;
+    width: 50%;
+}
+/*Reduce the width of the image*/
+img {
+    width: 100px;
+}
 /* .flex_container {
   width: 80vw;
   height: 500px;
