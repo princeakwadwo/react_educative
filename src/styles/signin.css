@@ -41,6 +41,15 @@ button {
     border-radius: 35px;
 
 }
+input[type="email"] {
+    margin: 10px 0;
+    width: 250px;
+}
+input[type="password"] {
+    margin: 10px 0;
+    width: 250px;
+}
+
 /* .flex_container {
   width: 80vw;
   height: 500px;
