@@ -19,7 +19,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+
+article {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+
 .phone-inner {
     background: var(--primary-bg);
     height: 80%;
@@ -28,9 +36,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-article {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 0.8rem;
-    border-radius: 5px;
+
+.phone-inner:before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: blue;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+.phone-inner:after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
 }

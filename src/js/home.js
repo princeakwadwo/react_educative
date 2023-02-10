@@ -7,5 +7,5 @@ const generateOTP = (length) => {
   return result;
 };
 
-const value = prompt('Enter your length of otp');
-console.log(generateOTP(value));
+//const value = prompt('Enter your length of otp');
+//console.log(generateOTP(value));
